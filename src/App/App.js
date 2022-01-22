@@ -7,6 +7,7 @@ import { alertActions } from '../ReduxActions';
 import { Login } from '../Login';
 import { Registration } from '../Registration';
 import { Home } from '../Home';
+import { PrivateRoute } from '../App';
 
 import { history } from '../Utils';
 
