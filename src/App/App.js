@@ -15,7 +15,7 @@ function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    history.listen((location, action) => {
+    history.listen(() => {
       dispatch(alertActions.clear());
     }, []);
   });
